@@ -7,12 +7,6 @@ const livros: Livro[] = [
 ];
 
 class ControleLivros {
-  static excluirLivro(codigo: number) {
-      throw new Error('Method not implemented.');
-  }
-  static incluirLivro(novoLivro: any) {
-      throw new Error('Method not implemented.');
-  }
   static obterLivros() {
     return livros;
   }

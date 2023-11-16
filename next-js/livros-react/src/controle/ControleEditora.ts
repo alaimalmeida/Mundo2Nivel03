@@ -1,9 +1,11 @@
 import Editora from '../modelo/Editora';
 
 const editoras: Editora[] = [
-  new Editora(1, 'Editora A'),
-  new Editora(2, 'Editora B'),
-  new Editora(3, 'Editora C'),
+  new Editora(0, 'Selecione a editora'),
+  new Editora(1, 'Alta Books'),
+  new Editora(2, 'Bookaman'),
+  new Editora(3, 'Addison Wesley'),
+  new Editora(4, 'Pearson'),
 ];
 
 class ControleEditora {
